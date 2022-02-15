@@ -1,0 +1,28 @@
+Table,Field,Description
+Employee,EmployeeId,Unique identifier for each employee
+Employee,CommuteDistance,Commuting distance in miles
+Employee,DegreeCompleted,Highest level of education completed
+Employee,DegreeField,Domain (field) for the highest-level degree  
+Employee,Department,Employee’s department
+Employee,EmploymentEndDate,"Final date of employment, if applicable"
+Employee,EmploymentEndReason,"Reason for employment termination, if applicable"
+Employee,EmploymentStartDate,First date of employment (i.e. hire date)
+Employee,Gender,Gender
+Employee,JobLevel,Level within company: 1 (lowest) - 5 (highest)
+Employee,MaritalStatus,Marital status
+Employee,NumPreviousCompanies,Number of companies that the employee worked at previously
+Employee,NumYearsWorked,Length of employee’s total work history (previous and present company included)
+Employee,OvertimeDays,Number of days in which the employee worked some overtime (total for 2019)
+Employee,OvertimeHours,Number of overtime hours worked (total for 2019)
+Employee,Salary,Employee’s base salary
+Employee,TrainingsAttended,Number of trainings that the employee attended in 2019
+Employee,TravelFrequency,How often the employee travels for work
+Employee,WeeklyHoursBudgeted,Number of weekly hours that the company has budgeted for this employee
+Employee,YearOfBirth,Year of birth
+PerformanceReview,EmployeeId,Unique identifier for each employee
+PerformanceReview,ReviewDate,Date of performance review
+PerformanceReview,PerformanceRating,Annual performance rating: 1 (lowest) – 5 (highest)
+Survey,EmployeeId,Unique identifier for each employee
+Survey,QuestionNum,Survey question number
+Survey,QuestionText,Survey question text
+Survey,Response,Employee’s response to question
